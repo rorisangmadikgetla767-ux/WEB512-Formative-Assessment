@@ -9,8 +9,24 @@
     <h1>Explore South Africa</h1>
     <h3>Checkout Section</h3>
     <div>
+        <label>Enter your name</label>
         <input placeholder="Enter your name">
+        <br>
+        <br>
+        <label>Card number</label>
         <input placeholder="Enter your card number">
+        <br>
+        <br>
+
+        <button id="submit-btn">Submit</button>
+        <script>
+            const submit = document.getElementById('submit-btn')
+            submit.addEventListener('click', () => {
+                console.log(alert('Payment approved!'))
+                window.location.href='bookings.html'
+
+            })
+        </script>
 
     </div>
 </body>

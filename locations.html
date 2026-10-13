@@ -7,6 +7,41 @@
 </head>
 <body>
     <h1>Explore South Africa Travel Agency</h1>
-    
+
+    <div>
+        <section>
+            <h3>Gauteng - Johannesburg - Gold Reef City</h3>
+            <img src="Gold Reef.jpeg" alt="Gold Reef City">
+            <p>This amusement park is state of the art entertainment for extroverts
+                <br>This attraction offers a variety of rides..
+            </p>
+            <ul>
+                <li>Anaconda</li>
+                <li>Golden Loop</li>
+                <li>3D Movie Theatre</li>
+               
+            </ul>
+             <p>And many more!
+                <br>
+                <p>For bookings click the button below</p>
+             </p>
+             <button id="bookings">Book this attraction</button>
+             <button id="home-btn">Home</button>
+             <script>
+                const book = document.getElementById('bookings')
+                book.addEventListener('click', () => {
+                    console.log(alert("Jozi re tseleng !"))
+                    window.location.href='bookings.html'
+                })
+
+                const home = document.getElementById('home-btn')
+                home.addEventListener('click', () => {
+                    console.log(alert('We are taking you home..'))
+                    window.location.href='home.html'
+                })
+             </script>
+        </section>
+    </div>
+
 </body>
 </html>

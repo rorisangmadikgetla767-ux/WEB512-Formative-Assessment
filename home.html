@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div >
         <h1>Explore South Afica</h1>
         <br>
-        <nav>
-            <a href="destinations.html">Destinations</a>
+        <nav class="navbar">
+            <a href="locations.html">Destinations</a>
             <a href="services.html">Our Services</a>
             <a href="contact.html">Contact us</a>
         </nav>
@@ -36,6 +37,12 @@
                 book.addEventListener("click", () => {
                     console.log(alert('Re o isa leqhepeng le tshwanetseng'))
                     window.location.href ='bookings.html'
+                })
+
+                const loco = document.getElementById('more-locations')
+                loco.addEventListener('click', () => {
+                    console.log(alert("we're taking you to the right page.."))
+                    window.location.href='locations.html'
                 })
 
                 
