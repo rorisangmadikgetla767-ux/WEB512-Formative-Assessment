@@ -11,8 +11,33 @@
         <br>
         <nav>
             <a href="destinations.html">Destinations</a>
-            <a
+            <a href="services.html">Our Services</a>
+            <a href="contact.html">Contact us</a>
         </nav>
+
+        <div class="card">
+            <h2>Free State - Bloemfontein</h2>
+            <p>Bloemfontein offers a duo experience, a city life with a country vibe 
+                <br>
+                Below are one of many attractions of the city!
+            </p>
+            
+            <h4>Botanical Gardens</h4>
+            <img src="botanical.jpeg" alt="Botanical gardens Bloem">
+            <p>This natural attraction is based on the north of Bloemfontein
+                <br>
+                Tourist can come clear their heads, and take walks, runs and enjoy a resturant at the heart of it
+            </p>
+
+            <button id="bookings-btn">Bookings</button>
+            <script>
+                const book = document.getElementById('bookings-btn')
+                book.addEventListener("click", () => {
+                    console.log(alert('Your booking has been logged'))
+                })
+            </script>
+
+        </div>
     </div>
 </body>
 </html>
